@@ -1,0 +1,41 @@
+.nav-item,
+.dropdown-menu {
+  list-style-type: none;
+}
+
+body {
+  background-color: #141414;
+  color: rgb(59, 47, 47);
+  font-family: Arial, sans-serif;
+}
+.movie-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.movie-card:hover {
+  transform: scale(1.1);
+}
+.section-img {
+  width: 100%;
+  max-width: 200px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.container-icon {
+  margin-top: 50px;
+}
+footer svg {
+  align-items: center;
+}
+
+footer {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+footer button a {
+  text-decoration: none;
+}
