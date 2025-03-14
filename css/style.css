@@ -39,3 +39,39 @@ footer {
 footer button a {
   text-decoration: none;
 }
+/* Pulsanti azione */
+.d-flex {
+  display: flex;
+  gap: 10px;
+}
+
+/* Pulsante SAVE */
+.btn-save {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 6px 16px;
+  border-radius: 3px;
+}
+
+/* Pulsanti CANCEL e DELETE */
+.btn-outline-secondary {
+  border-color: #777;
+  color: #999;
+  padding: 6px 14px;
+}
+
+/* DELETE PROFILE con opacità più bassa */
+.btn-delete {
+  color: #666;
+  border-color: #666;
+  opacity: 0.6;
+}
+
+/* Immagine profilo */
+.profile-container img {
+  width: 80px; /* Corretta la dimensione */
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
